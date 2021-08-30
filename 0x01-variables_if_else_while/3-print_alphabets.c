@@ -19,10 +19,11 @@ int main(void)
 	{
 	x = n;
 	printf("%c", x);
-	}
 	if (n == 90)
 	{
+	printf("$");
 	printf("\n");
+	}
 	}
 	return (0);
 }
