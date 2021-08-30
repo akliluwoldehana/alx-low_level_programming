@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	signed char x;
 	int n;
 
 	for (n = 0; n <= 10; n++)
