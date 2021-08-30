@@ -14,10 +14,15 @@ int main(void)
 	{
 	x = n;
 	printf("%c", x);
-	if (n == 122)
+	}
+	for (n = 65; n <= 90; n++)
+	{
+	x = n;
+	printf("%c", x);
+	}
+	if (n == 90)
 	{
 	printf("\n");
-	}
 	}
 	return (0);
 }
