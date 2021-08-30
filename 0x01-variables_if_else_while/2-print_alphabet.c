@@ -14,6 +14,10 @@ int main(void)
 	{
 	x = n;
 	printf("%c", x);
+	if (n == 122)
+	{
+	printf("\n")
+	}
 	}
 	return (0);
 }
