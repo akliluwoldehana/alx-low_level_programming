@@ -16,7 +16,7 @@ int main(void)
 	printf("%c", x);
 	if (n == 122)
 	{
-	printf("\n")
+	printf("\n");
 	}
 	}
 	return (0);
