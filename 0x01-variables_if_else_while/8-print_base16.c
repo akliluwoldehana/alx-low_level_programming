@@ -17,7 +17,7 @@ int main(void)
 	for (m = 97; m < 103; m++)
 	{
 	putchar(m);
-	if (n == 102)
+	if (m == 102)
 	{
 	putchar('\n');
 	}
