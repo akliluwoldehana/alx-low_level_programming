@@ -8,8 +8,8 @@
 int main(void)
 {
 	signed char x;
-
-	for (int n = 97; n <= 122; n++)
+        int n; 
+	for (n = 97; n <= 122; n++)
 	{
 	x = n;
 	printf("%c", x);
