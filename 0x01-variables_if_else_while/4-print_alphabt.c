@@ -18,7 +18,7 @@ int main(void)
 	continue;
 	}
 	printf("%c", x);
-	if (n == 90)
+	if (n == 122)
 	{
 	printf("\n");
 	}
