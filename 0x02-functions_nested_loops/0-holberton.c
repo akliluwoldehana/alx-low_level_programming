@@ -1,20 +1,17 @@
-#include<stdio.h>
-/**
- * printName - print a provided name
- * @name: hold the name to be printed
- * Return: void
- */
-void printName(char name[])
-{
-	printf("%s\n", name);
-}
-
+#include "main.h"
 /**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printName("Holberton");
+	int i;
+	char c[] = "Holberton";
+
+	for (i = 0; i < 10; i++)
+	{
+	_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
