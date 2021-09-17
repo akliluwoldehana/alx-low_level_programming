@@ -9,11 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int sum = 0;
 
-	(void)argv;
-	while (--argc)
-		sum++;
-	printf("%i\n", sum);
+	printf("%i\n", )argc;
 	return (0);
 }
