@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -9,6 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%i\n", args);
+	int sum = 0;
+
+	(void)argv;
+	while (--argc)
+		sum++;
+	printf("%i\n", sum);
 	return (0);
 }
