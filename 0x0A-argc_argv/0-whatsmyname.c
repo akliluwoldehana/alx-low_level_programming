@@ -1,16 +1,15 @@
+#include "holberton.h"
 #include <stdio.h>
 
-/*
- * main - prints programs name
- * @argc : argument count
- * @argv : argument content
- * Return : 0 if success
+/**
+ * main - prints its name, followed by a new line
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0
  */
-
 int main(int argc, char *argv[])
 {
-
-	printf("%s",argv[0]);
+	(void)argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
-
